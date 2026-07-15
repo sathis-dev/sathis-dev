@@ -6,8 +6,8 @@
 
 <br/>
 
-<a href="https://sathis-dev.vercel.app">
-  <img src="https://img.shields.io/badge/🌐_Portfolio-sathis--dev.vercel.app-6EE7B7?style=for-the-badge&logoColor=white" alt="Portfolio"/>
+<a href="https://sathis.dev">
+  <img src="https://img.shields.io/badge/🌐_Portfolio-sathis.dev-6EE7B7?style=for-the-badge&logoColor=white" alt="Portfolio"/>
 </a>
 <a href="https://www.linkedin.com/in/sathis-hettiarachchi-52b4b436a/">
   <img src="https://img.shields.io/badge/LinkedIn-Sathis_Hettiarachchi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -157,7 +157,7 @@ Whether you're a **startup**, **agency**, or **enterprise** — let's talk!
   <img src="https://img.shields.io/badge/📧_Hire_Me-sathis.rc.dev%40gmail.com-6EE7B7?style=for-the-badge&logoColor=white" alt="Email"/>
 </a>
 &nbsp;
-<a href="https://sathis-dev.vercel.app">
+<a href="https://sathis.dev">
   <img src="https://img.shields.io/badge/🌐_See_My_Work-Portfolio-6EE7B7?style=for-the-badge&logoColor=white" alt="Portfolio"/>
 </a>
 &nbsp;
