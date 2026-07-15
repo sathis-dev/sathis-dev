@@ -137,12 +137,22 @@ export default sathis;
 
 <div align="center">
 
-<a href="https://github.com/sathis-dev/my-portfolio-website">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=sathis-dev&repo=my-portfolio-website&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7B7&text_color=ffffff&icon_color=6EE7B7" width="380"/>
+<a href="https://github.com/sathis-dev/mentorai-discord">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=sathis-dev&repo=mentorai-discord&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7B7&text_color=ffffff&icon_color=6EE7B7" width="380"/>
 </a>
 &nbsp;
 <a href="https://github.com/sathis-dev/silent-help">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=sathis-dev&repo=silent-help&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7B7&text_color=ffffff&icon_color=6EE7B7" width="380"/>
+</a>
+
+<br/>
+
+<a href="https://github.com/sathis-dev/avenlo-core">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=sathis-dev&repo=avenlo-core&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7B7&text_color=ffffff&icon_color=6EE7B7" width="380"/>
+</a>
+&nbsp;
+<a href="https://github.com/sathis-dev/portfolio-client">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=sathis-dev&repo=portfolio-client&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7B7&text_color=ffffff&icon_color=6EE7B7" width="380"/>
 </a>
 
 </div>
