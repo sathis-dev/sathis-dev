@@ -1,0 +1,183 @@
+<svg width="100%" viewBox="0 0 830 280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050d1a"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
+      <path d="M 35 0 L 0 0 0 35" fill="none" stroke="#6EE7B715" stroke-width="0.6"/>
+    </pattern>
+
+    <!-- Glow filters -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="strongGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Clip path -->
+    <clipPath id="mainClip">
+      <rect width="830" height="280" rx="8"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#mainClip)">
+    <!-- Base background -->
+    <rect width="830" height="280" fill="url(#bgGrad)"/>
+    <!-- Grid overlay -->
+    <rect width="830" height="280" fill="url(#grid)"/>
+
+    <!-- Ambient glow blobs -->
+    <ellipse cx="180" cy="140" rx="200" ry="120" fill="#6EE7B7" opacity="0.03">
+      <animate attributeName="opacity" values="0.03;0.06;0.03" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="650" cy="140" rx="200" ry="120" fill="#818CF8" opacity="0.04">
+      <animate attributeName="opacity" values="0.04;0.08;0.04" dur="5s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Horizontal scan line -->
+    <rect x="0" width="830" height="1.5" fill="#6EE7B7" opacity="0.15">
+      <animate attributeName="y" from="-2" to="282" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.25;0.15;0;0" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- ═══ Corner brackets ═══ -->
+    <!-- Top-left -->
+    <polyline points="0,55 0,0 55,0" fill="none" stroke="#6EE7B7" stroke-width="2" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+    </polyline>
+    <!-- Top-right -->
+    <polyline points="775,0 830,0 830,55" fill="none" stroke="#6EE7B7" stroke-width="2" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="1;0.5;1" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </polyline>
+    <!-- Bottom-left -->
+    <polyline points="0,225 0,280 55,280" fill="none" stroke="#6EE7B7" stroke-width="2" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="1;0.5;1" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </polyline>
+    <!-- Bottom-right -->
+    <polyline points="775,280 830,280 830,225" fill="none" stroke="#6EE7B7" stroke-width="2" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="1;0.5;1" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </polyline>
+
+    <!-- Top bracket label -->
+    <text x="60" y="14" font-family="Courier New, monospace" font-size="9" fill="#6EE7B740" letter-spacing="2">SATHIS_HETTIARACHCHI.profile</text>
+    <!-- Bottom bracket label -->
+    <text x="60" y="273" font-family="Courier New, monospace" font-size="9" fill="#6EE7B740" letter-spacing="2">v2026.07.15 • UK 🇬🇧</text>
+
+    <!-- Floating code — left panel -->
+    <text x="28" y="55" font-family="Courier New, monospace" font-size="10" fill="#6EE7B7" opacity="0.22">const sathis = {</text>
+    <text x="28" y="70" font-family="Courier New, monospace" font-size="10" fill="#818CF8" opacity="0.20">  stack:   <tspan fill="#FBBF24" opacity="0.5">"Next.js | React | TS"</tspan>,</text>
+    <text x="28" y="85" font-family="Courier New, monospace" font-size="10" fill="#818CF8" opacity="0.20">  based:   <tspan fill="#FBBF24" opacity="0.5">"United Kingdom 🇬🇧"</tspan>,</text>
+    <text x="28" y="100" font-family="Courier New, monospace" font-size="10" fill="#818CF8" opacity="0.20">  status:  <tspan fill="#6EE7B7" opacity="0.7">"open_to_hire"</tspan>,</text>
+    <text x="28" y="115" font-family="Courier New, monospace" font-size="10" fill="#6EE7B7" opacity="0.22">};</text>
+
+    <!-- Floating code — right panel -->
+    <text x="610" y="55" font-family="Courier New, monospace" font-size="10" fill="#6EE7B7" opacity="0.22">git log --oneline</text>
+    <text x="610" y="70" font-family="Courier New, monospace" font-size="10" fill="#FBBF24" opacity="0.18">a3f12bc feat: ship v3</text>
+    <text x="610" y="85" font-family="Courier New, monospace" font-size="10" fill="#FBBF24" opacity="0.18">9c821ef fix: edge case</text>
+    <text x="610" y="100" font-family="Courier New, monospace" font-size="10" fill="#FBBF24" opacity="0.18">d4e09a1 perf: optimize</text>
+    <text x="610" y="115" font-family="Courier New, monospace" font-size="10" fill="#FBBF24" opacity="0.18">2b71cc3 feat: add auth</text>
+
+    <!-- ═══ MAIN NAME — with ghost glow layer ═══ -->
+    <!-- Ghost glow layer -->
+    <text x="415" y="158"
+      text-anchor="middle"
+      font-family="Arial Black, Impact, sans-serif"
+      font-size="52"
+      font-weight="900"
+      fill="#6EE7B7"
+      opacity="0.12"
+      filter="url(#strongGlow)">SATHIS HETTIARACHCHI</text>
+
+    <!-- Main text -->
+    <text x="415" y="158"
+      text-anchor="middle"
+      font-family="Arial Black, Impact, sans-serif"
+      font-size="52"
+      font-weight="900"
+      fill="#ffffff"
+      filter="url(#neonGlow)"
+      letter-spacing="1">
+      SATHIS HETTIARACHCHI
+      <animate attributeName="opacity" values="1;0.92;1" dur="3.5s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- ═══ Animated underline ═══ -->
+    <line x1="415" y1="168" x2="415" y2="168" stroke="#6EE7B7" stroke-width="1.5" opacity="0.8" filter="url(#softGlow)">
+      <animate attributeName="x1" from="415" to="180" dur="1.2s" fill="freeze" begin="0.3s"/>
+      <animate attributeName="x2" from="415" to="650" dur="1.2s" fill="freeze" begin="0.3s"/>
+    </line>
+
+    <!-- ═══ Subtitle ═══ -->
+    <text x="415" y="190"
+      text-anchor="middle"
+      font-family="Courier New, monospace"
+      font-size="13.5"
+      fill="#6EE7B7"
+      letter-spacing="3"
+      opacity="0">
+      FULL-STACK DEVELOPER  •  UI ARCHITECT  •  PROBLEM SOLVER
+      <animate attributeName="opacity" values="0;0;0.9" dur="2s" fill="freeze"/>
+    </text>
+
+    <!-- ═══ Status pills ═══ -->
+    <!-- Pill 1: Available -->
+    <rect x="185" y="213" width="130" height="22" rx="11" fill="#6EE7B715" stroke="#6EE7B7" stroke-width="0.8" opacity="0.9"/>
+    <circle cx="201" cy="224" r="3.5" fill="#6EE7B7">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3.5;4.5;3.5" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="212" y="229" font-family="Courier New, monospace" font-size="10" fill="#6EE7B7" font-weight="bold">Open to Hire</text>
+
+    <!-- Pill 2: Next.js -->
+    <rect x="330" y="213" width="90" height="22" rx="11" fill="#818CF815" stroke="#818CF8" stroke-width="0.8" opacity="0.9"/>
+    <circle cx="344" cy="224" r="3" fill="#818CF8">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="352" y="229" font-family="Courier New, monospace" font-size="10" fill="#818CF8" font-weight="bold">Next.js 16</text>
+
+    <!-- Pill 3: TypeScript -->
+    <rect x="435" y="213" width="100" height="22" rx="11" fill="#38BDF815" stroke="#38BDF8" stroke-width="0.8" opacity="0.9"/>
+    <circle cx="449" cy="224" r="3" fill="#38BDF8">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="458" y="229" font-family="Courier New, monospace" font-size="10" fill="#38BDF8" font-weight="bold">TypeScript</text>
+
+    <!-- Pill 4: UK -->
+    <rect x="550" y="213" width="95" height="22" rx="11" fill="#FBBF2415" stroke="#FBBF24" stroke-width="0.8" opacity="0.9"/>
+    <circle cx="564" cy="224" r="3" fill="#FBBF24">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="573" y="229" font-family="Courier New, monospace" font-size="10" fill="#FBBF24" font-weight="bold">🇬🇧 UK Based</text>
+
+    <!-- ═══ Vertical circuit lines ═══ -->
+    <line x1="160" y1="0" x2="160" y2="280" stroke="#6EE7B7" stroke-width="0.4" opacity="0.08"/>
+    <line x1="670" y1="0" x2="670" y2="280" stroke="#6EE7B7" stroke-width="0.4" opacity="0.08"/>
+
+    <!-- Dots on circuit lines -->
+    <circle cx="160" cy="140" r="3" fill="#6EE7B7" opacity="0.2">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="670" cy="140" r="3" fill="#6EE7B7" opacity="0.2">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ═══ Blinking cursor ═══ -->
+    <rect x="648" y="148" width="8" height="18" rx="1" fill="#6EE7B7">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Border frame -->
+    <rect width="830" height="280" rx="8" fill="none" stroke="#6EE7B7" stroke-width="0.8" opacity="0.15"/>
+  </g>
+</svg>
