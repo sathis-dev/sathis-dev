@@ -70,20 +70,19 @@
     <text x="640" y="94" font-family="'Courier New', monospace" font-size="9.5" fill="#FBBF24" opacity="0.12">d4e09a1 perf: optimize</text>
     <text x="640" y="108" font-family="'Courier New', monospace" font-size="9.5" fill="#FBBF24" opacity="0.12">2b71cc3 feat: auth flow</text>
 
-    <!-- ═══ MAIN NAME — clean, no excessive glow ═══ -->
+    <!-- ═══ MAIN NAME — clean, crisp ═══ -->
     <text x="415" y="155"
       text-anchor="middle"
       font-family="'Segoe UI', Arial, sans-serif"
-      font-size="48"
+      font-size="42"
       font-weight="800"
       fill="#ffffff"
-      letter-spacing="2"
-      filter="url(#subtleGlow)">SATHIS HETTIARACHCHI</text>
+      letter-spacing="1">SATHIS HETTIARACHCHI</text>
 
     <!-- Underline — draws from center -->
     <line x1="415" y1="165" x2="415" y2="165" stroke="#6EE7B7" stroke-width="1.2" opacity="0.7">
-      <animate attributeName="x1" from="415" to="195" dur="1s" fill="freeze" begin="0.3s"/>
-      <animate attributeName="x2" from="415" to="635" dur="1s" fill="freeze" begin="0.3s"/>
+      <animate attributeName="x1" from="415" to="210" dur="1s" fill="freeze" begin="0.3s"/>
+      <animate attributeName="x2" from="415" to="620" dur="1s" fill="freeze" begin="0.3s"/>
     </line>
 
     <!-- Subtitle -->
@@ -121,9 +120,9 @@
     <line x1="155" y1="0" x2="155" y2="280" stroke="#6EE7B7" stroke-width="0.3" opacity="0.06"/>
     <line x1="675" y1="0" x2="675" y2="280" stroke="#6EE7B7" stroke-width="0.3" opacity="0.06"/>
 
-    <!-- Blinking cursor next to name -->
-    <rect x="640" y="140" width="3" height="20" rx="1" fill="#6EE7B7" opacity="0.8">
-      <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
+    <!-- Blinking cursor — positioned after name -->
+    <rect x="665" y="140" width="3" height="20" rx="1" fill="#6EE7B7" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="1s" repeatCount="indefinite"/>
     </rect>
 
     <!-- Border -->
