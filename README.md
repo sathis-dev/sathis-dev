@@ -1,116 +1,178 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Sathis&fontSize=72&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full-Stack%20Developer%20%7C%20UI%20Craftsman%20%7C%20Open%20Source%20Enthusiast&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6,11,20&height=200&section=header&text=Sathis%20Hettiarachchi&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20%E2%80%A2%20UI%20Architect%20%E2%80%A2%20Problem%20Solver&descAlignY=56&descSize=17" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6EE7B7&center=true&vCenter=true&multiline=false&width=600&lines=Building+beautiful%2C+fast+web+experiences+%F0%9F%9A%80;Next.js+%7C+React+%7C+TypeScript+%7C+Node.js;Turning+ideas+into+polished+products+%E2%9C%A8;Always+learning%2C+always+shipping+%F0%9F%93%A6)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=6EE7B7&center=true&vCenter=true&multiline=false&repeat=true&width=700&lines=%F0%9F%9A%80+Building+blazing+fast+web+experiences;%F0%9F%8E%A8+Crafting+pixel-perfect+UI+with+Next.js+%26+React;%E2%9A%A1+TypeScript+%7C+Node.js+%7C+Tailwind+%7C+PostgreSQL;%F0%9F%92%A1+Turning+complex+problems+into+elegant+solutions;%F0%9F%93%A6+Shipping+production-ready+code+daily)](https://git.io/typing-svg)
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Site-6EE7B7?style=for-the-badge&logoColor=white)](https://sathis-dev.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sathis_Hettiarachchi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sathis-hettiarachchi-52b4b436a/)
-[![Email](https://img.shields.io/badge/Email-sathis.rc.dev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sathis.rc.dev@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-sathis--dev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sathis-dev)
+<a href="https://sathis-dev.vercel.app">
+  <img src="https://img.shields.io/badge/🌐_Portfolio-sathis--dev.vercel.app-6EE7B7?style=for-the-badge&logoColor=white" alt="Portfolio"/>
+</a>
+<a href="https://www.linkedin.com/in/sathis-hettiarachchi-52b4b436a/">
+  <img src="https://img.shields.io/badge/LinkedIn-Sathis_Hettiarachchi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="mailto:sathis.rc.dev@gmail.com">
+  <img src="https://img.shields.io/badge/Email-sathis.rc.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=sathis-dev&color=6EE7B7&style=for-the-badge&label=PROFILE+VIEWS"/>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sathis-dev&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7B7&text_color=ffffff&langs_count=6&size_weight=0.5&count_weight=0.5" width="280"/>
 
-```typescript
-const sathis = {
-  role:       "Full-Stack Developer",
-  location:   "🇬🇧 United Kingdom",
-  focus:      ["Web Performance", "UI/UX", "Scalable APIs"],
-  currentlyBuilding: "Polished web products with Next.js & TypeScript",
-  openTo:     ["Full-time roles", "Freelance projects", "Collaborations"],
-  funFact:    "I debug with console.log and I'm not ashamed 🙃",
-};
-```
+## 🧑‍💻 About Me
 
-<br/>
+I'm a **Full-Stack Developer** based in the **UK 🇬🇧**, passionate about building **beautiful, performant web applications** that users love.
 
-## 🛠️ Tech Stack
+- 🔭 Currently building **production web apps** with **Next.js 16 & React 19**
+- 🌱 Deep diving into **server components**, **edge computing** & **AI integrations**
+- 💼 Open to **full-time opportunities** and **freelance projects**
+- ⚡ I believe great software is **fast, accessible, and delightful**
+- 🎯 2026 Goal: **Contribute more to open source**
+
+<br clear="right"/>
+
+---
+
+## ⚡ Tech Arsenal
 
 <div align="center">
 
-### Frontend
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+### 🎨 Frontend & UI
 
-### Backend & Tools
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,html,css,tailwind,sass&theme=dark&perline=8" />
+</a>
 
-### Deployment & Workflow
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+### ⚙️ Backend & Database
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,prisma,postgres,mongodb,redis,graphql,firebase&theme=dark&perline=8" />
+</a>
+
+### 🛠️ DevOps & Tools
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=git,github,docker,vercel,aws,linux,vscode,figma&theme=dark&perline=8" />
+</a>
+
+</div>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=sathis-dev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6EE7B7&icon_color=6EE7B7&text_color=ffffff&ring_color=6EE7B7&rank_icon=github"/>
+&nbsp;&nbsp;
+<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=sathis-dev&theme=tokyonight&hide_border=true&background=0D1117&ring=6EE7B7&fire=6EE7B7&currStreakLabel=6EE7B7&sideLabels=ffffff&dates=888888"/>
 
 </div>
 
 <br/>
 
-## 📊 GitHub Stats
-
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=sathis-dev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6EE7B7&icon_color=6EE7B7&text_color=ffffff"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sathis-dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7B7&text_color=ffffff&langs_count=8"/>
+[![trophy](https://github-profile-trophy.vercel.app/?username=sathis-dev&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=sathis-dev&theme=tokyonight&hide_border=true&background=0D1117&ring=6EE7B7&fire=6EE7B7&currStreakLabel=6EE7B7)](https://git.io/streak-stats)
-
-</div>
-
-<br/>
+---
 
 ## 📈 Contribution Activity
 
 <div align="center">
 
-[![Sathis's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sathis-dev&bg_color=0D1117&color=6EE7B7&line=6EE7B7&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
-<br/>
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-[![Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=sathis-dev&repo=my-portfolio-website&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7B7&text_color=ffffff&icon_color=6EE7B7)](https://github.com/sathis-dev/my-portfolio-website)
-
-</div>
-
-<br/>
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-I'm always open to interesting projects and opportunities. Whether you want to collaborate, hire, or just chat about tech — my inbox is open!
-
-[![Email Me](https://img.shields.io/badge/📧_Email_Me-sathis.rc.dev%40gmail.com-6EE7B7?style=for-the-badge)](mailto:sathis.rc.dev@gmail.com)
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=sathis-dev&bg_color=0D1117&color=6EE7B7&line=6EE7B7&point=ffffff&area=true&hide_border=true&area_color=6EE7B740" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=sathis-dev&bg_color=ffffff&color=10B981&line=10B981&point=333333&area=true&hide_border=true&area_color=10B98140" />
+  <img alt="Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=sathis-dev&bg_color=0D1117&color=6EE7B7&line=6EE7B7&point=ffffff&area=true&hide_border=true&area_color=6EE7B740" width="100%" />
+</picture>
 
 </div>
 
 ---
 
+## 🚀 Featured Work
+
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=sathis-dev&color=6EE7B7&style=flat-square&label=Profile+Views"/>
+
+<a href="https://github.com/sathis-dev/my-portfolio-website">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sathis-dev&repo=my-portfolio-website&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7B7&text_color=ffffff&icon_color=6EE7B7" width="400"/>
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+| 🎯 Project | 🛠️ Tech | 📝 Description |
+|:---:|:---:|:---|
+| **Personal Portfolio** | Next.js, Framer Motion, Tailwind | Stunning portfolio with 3D animations, smooth transitions & dark mode |
+
+</div>
+
+---
+
+## 💡 What I Bring to Teams
+
+<div align="center">
+
+```
+ ┌──────────────────────────────────────────────────────────────┐
+ │                                                              │
+ │   🏗️  Clean Architecture    │  🧪 Test-Driven Development   │
+ │                              │                               │
+ │   ⚡ Performance Obsessed   │  📱 Responsive-First Design   │
+ │                              │                               │
+ │   🔄 CI/CD Best Practices   │  📖 Clear Documentation       │
+ │                              │                               │
+ │   🤝 Agile & Team-Oriented  │  🔍 Code Review Excellence    │
+ │                                                              │
+ └──────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+---
+
+## 🤝 Let's Build Something Great
+
+<div align="center">
+
+I'm always excited to work on projects that push boundaries.
+Whether you're a **startup**, **agency**, or **enterprise** — let's talk!
+
+<br/>
+
+<a href="mailto:sathis.rc.dev@gmail.com">
+  <img src="https://img.shields.io/badge/📧_Hire_Me-sathis.rc.dev%40gmail.com-6EE7B7?style=for-the-badge&logoColor=white" alt="Email"/>
+</a>
+&nbsp;
+<a href="https://sathis-dev.vercel.app">
+  <img src="https://img.shields.io/badge/🌐_See_My_Work-Portfolio-6EE7B7?style=for-the-badge&logoColor=white" alt="Portfolio"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/sathis-hettiarachchi-52b4b436a/">
+  <img src="https://img.shields.io/badge/💼_Connect-LinkedIn-0A66C2?style=for-the-badge&logoColor=white" alt="LinkedIn"/>
+</a>
+
+<br/><br/>
+
+> *"Any fool can write code that a computer can understand.*
+> *Good programmers write code that humans can understand."*
+> — Martin Fowler
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+
 </div>
