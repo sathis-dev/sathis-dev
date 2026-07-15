@@ -72,7 +72,7 @@
     <!-- Top bracket label -->
     <text x="60" y="14" font-family="Courier New, monospace" font-size="9" fill="#6EE7B740" letter-spacing="2">SATHIS_HETTIARACHCHI.profile</text>
     <!-- Bottom bracket label -->
-    <text x="60" y="273" font-family="Courier New, monospace" font-size="9" fill="#6EE7B740" letter-spacing="2">v2026.07.15 • UK 🇬🇧</text>
+    <text x="60" y="273" font-family="Courier New, monospace" font-size="9" fill="#6EE7B740" letter-spacing="2">Cambridge, UK 🇬🇧 • Open to work</text>
 
     <!-- Floating code — left panel -->
     <text x="28" y="55" font-family="Courier New, monospace" font-size="10" fill="#6EE7B7" opacity="0.22">const sathis = {</text>
